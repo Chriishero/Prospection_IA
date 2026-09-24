@@ -2,12 +2,12 @@
 
 Linux:
 ```bash
-chmod +x install.sh
+chmod +x install_linux.sh
 ./install.sh
 ```
 Windows:
 ```bash
-bash install.sh
+bash install_win.bat
 ```
 
 **Running**
