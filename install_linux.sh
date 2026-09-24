@@ -111,4 +111,4 @@ echo "  ollama  : $(ollama --version 2>/dev/null || true)"
 echo "  modèle  : llama3.2:3b"
 echo
 echo "Tu peux maintenant utiliser :"
-echo "  make run FILE=test.xlsx"
+echo "  make help"

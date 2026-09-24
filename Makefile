@@ -1,7 +1,7 @@
 PYTHON = uv run python
 UV = uv
 
-SRC = src/
+SRC = src
 
 .PHONY: help run scraper enrich responses clean clean-all
 
@@ -29,4 +29,4 @@ clean:
 	$(PYTHON) scripts/clean.py
 
 clean-all: clean
-	$(PYTHON) scripts/clean-all.py
+	$(UV) venv --clear
